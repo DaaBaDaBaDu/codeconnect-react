@@ -3,7 +3,7 @@ import "./styles.css";
 
 export default function Searchbar() {
   const [termoPesquisa, setTermpoPesquisa] = useState("");
-  console.log(termoPesquisa);
+
   return (
     <>
       <input
