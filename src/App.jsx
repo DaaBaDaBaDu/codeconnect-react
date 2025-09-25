@@ -1,4 +1,5 @@
 import "./App.css";
+import Card from "./componentes/Card";
 import Filter from "./componentes/Filter";
 import Ordering from "./componentes/Ordering";
 import Searchbar from "./componentes/Searchbar";
@@ -12,6 +13,7 @@ function App() {
         <Searchbar />
         <Filter />
         <Ordering />
+        <Card />
       </div>
     </div>
   );

@@ -20,6 +20,7 @@
   color: var(--cinza-medio);
   font-size: 1.5em;
   text-decoration: none;
+  transition: 0.1s all ease-in-out 0s;
 }
 
 .item__ordering:hover {
