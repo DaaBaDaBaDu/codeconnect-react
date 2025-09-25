@@ -1,0 +1,27 @@
+.container-ordering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  margin-top: 56px;
+}
+
+.item__ordering-ativo {
+  color: var(--verde-destaque);
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+.item__ordering-ativo:hover {
+  text-decoration: none;
+}
+
+.item__ordering {
+  color: var(--cinza-medio);
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.item__ordering:hover {
+  color: var(--verde-pastal);
+}
