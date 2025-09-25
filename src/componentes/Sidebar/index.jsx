@@ -13,10 +13,12 @@ export default function Sidebar() {
         <nav>
           <ul className="lista-sidebar">
             <li>
-              <a href="#">Publicar</a>
+              <a href="#" className="item__link-publicacao">
+                Publicar
+              </a>
             </li>
             <li>
-              <a href="#" className="item__link">
+              <a href="#" className="item__link item__link--ativa">
                 <img src={Feed} alt="" />
                 <span>Feed</span>
               </a>

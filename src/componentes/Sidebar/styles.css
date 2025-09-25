@@ -20,3 +20,26 @@ aside {
   font-size: 22px;
   gap: 10px;
 }
+
+.item__link {
+  color: var(--cinza-claro);
+  text-decoration: none;
+}
+
+.item__link--ativa {
+  color: var(--branco);
+}
+
+.item__link-publicacao {
+  border: 1px solid var(--verde-destaque);
+  color: var(--verde-destaque);
+  padding: 0.75em 1em;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.item__link-publicacao:hover {
+  background-color: var(--verde-destaque);
+  color: var(--cinza-escuro);
+}
